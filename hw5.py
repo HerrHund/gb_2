@@ -12,6 +12,7 @@ my_list = [7, 5, 3, 3, 2]
 print('Имеющиеся числа ' + str(my_list))
 inp = int(input('Введите число '))
 
+
 for i in range(len(my_list)):
     if my_list[i] == inp:
         my_list.insert(i + 1, inp)
