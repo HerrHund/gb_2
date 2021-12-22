@@ -8,7 +8,6 @@ userInput = input('Введите несколько слов(2 слова): ')
 
 splitMethod = userInput.split()
 
-
 firstEl = splitMethod[0]
 secondEl = splitMethod[1]
 
